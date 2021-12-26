@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Add view" />
+
+    <item
+        android:id="@+id/item3"
+        android:title="Withdraw" />
+
+    <item
+        android:id="@+id/item4"
+        android:title="Team" />
+    <item
+        android:id="@+id/item5"
+        android:title="Support" />
+    v
+    <item
+        android:id="@+id/item6"
+        android:title="History" />
+    <item
+        android:id="@+id/item7"
+        android:title="Fund" />
+    <item
+        android:id="@+id/item8"
+        android:title="Home" />
+</menu>

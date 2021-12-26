@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="8dp"
+    android:padding="22dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="UserName:"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Account:"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amount:"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hisname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Name"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="61dp"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/hisaccount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="dfdg"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="61dp"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/hisamount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Refer"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="61dp"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+

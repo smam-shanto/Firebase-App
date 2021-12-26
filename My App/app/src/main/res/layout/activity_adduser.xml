@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adduserActivity">
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="right"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_menu_black_24dp"
+        android:onClick="showPopup"
+        android:layout_alignParentEnd="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:layout_marginTop="56dp">
+
+        <TextView
+            android:id="@+id/addnewuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add New User"
+            android:textSize="42dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            ></TextView>
+
+        <Button
+            android:id="@+id/addubtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" + new member"
+            android:padding="71sp"
+            android:background="@drawable/roundbutton_2"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="02sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+
+            ></Button>
+    </LinearLayout>
+
+</RelativeLayout>

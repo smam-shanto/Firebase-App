@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adduser2Activity">
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="right"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_menu_black_24dp"
+        android:onClick="showPopup"
+        android:layout_alignParentEnd="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:layout_marginTop="56dp">
+
+
+        <TextView
+            android:id="@+id/addnewuser2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add New User"
+            android:textSize="42dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/addunusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="username"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/roundbutton"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+        <EditText
+            android:id="@+id/transactionid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_info_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="Transaction id"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/roundbutton"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+        <Button
+            android:id="@+id/addu2btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Next"
+            android:padding="21sp"
+            android:background="@drawable/roundbutton"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="02sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+
+            ></Button>
+    </LinearLayout>
+
+</RelativeLayout>

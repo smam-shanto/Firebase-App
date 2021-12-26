@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "380333667743",
+    "project_id": "smartearn-9b32c",
+    "storage_bucket": "smartearn-9b32c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380333667743:android:a411b7c97b466d2ee4b9aa",
+        "android_client_info": {
+          "package_name": "com.earnsmart.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380333667743-5n5ahpdaa179m17e1m4gn66t8hisnqul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earnsmart.myapp",
+            "certificate_hash": "715ac02d5528131fcf35dcf86507d04b9b8ca04b"
+          }
+        },
+        {
+          "client_id": "380333667743-bae1npp2fichn6b15l8h4qvc7jh5nijp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZMVpdpR3diBzH45WeLaiF3MJrQoOB0nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380333667743-bae1npp2fichn6b15l8h4qvc7jh5nijp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
